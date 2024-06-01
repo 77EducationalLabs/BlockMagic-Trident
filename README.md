@@ -129,7 +129,7 @@ Valor arrecadado por Desenvolvedoras
 |CrossChainTrident.sol|   83     | sendAdminMessage       | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/CrossChainTrident.sol#L169-L171)|
 
 ### Chainlink Automation
-[Upkeep ID](100294353963328653549617203788371036649238998750535143727578973951519038272398).
+[Upkeep ID](https://automation.chain.link/sepolia/100294353963328653549617203788371036649238998750535143727578973951519038272398).
 |      Contract       |   Line   | Function               |   Go to  |
 |---------------------|----------|------------------------|----------|
 |Trident.sol          |    287   | gameScorerGetter       | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/Trident.sol#L287-L300)|
