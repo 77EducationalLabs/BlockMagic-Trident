@@ -5,17 +5,23 @@ function MoreInfo() {
   return (
     <div className="main-moreinfo" id="moreinfo">
       <section className="content">
+        <i class="fa-solid fa-shield-halved"></i>
         <h2>Enhanced Security Features</h2>
         <p>
-          Our platform integrates advanced security measures to protect your digital assets from unauthorized access and piracy. With our state-of-the-art encryption and authentication protocols, you can be confident that your data is secure.
+          Our platform integrates advanced security measures to protect your game from unauthorized access and piracy. <br />
+          With our state-of-the-art encryption and authentication protocols, you can be confident that your game is secure.
         </p>
-        <h2>Seamless Integration</h2>
+        <i class="fa-solid fa-hat-wizard"></i>
+        <h2>Cross-chain Interoperability</h2>
         <p>
-          Easily integrate our anti-piracy technology into your existing systems. Our platform is designed to be flexible and compatible with a variety of gaming environments, ensuring a smooth and hassle-free implementation.
+          Improve accessibility and achieve seamless interoperability across multiple networks with our advanced anti-piracy technology.<br />
+          Our platform ensures effortless adoption and operation, facilitating smooth integration across diverse network environments.
         </p>
-        <h2>Real-Time Monitoring</h2>
+        <i class="fa-solid fa-dragon"></i>
+        <h2>AI-Powered Game Rating</h2>
         <p>
-          Stay ahead of potential threats with our real-time monitoring and alert system. Receive instant notifications of any suspicious activity and take immediate action to protect your digital assets.
+          Discover the game rating process enhanced by artificial intelligence. <br />
+          Our advanced AI system ensures accurate and timely ratings, providing valuable insights for informed decisions.
         </p>
         <a className="learn" href="">
           Discover more ⭢

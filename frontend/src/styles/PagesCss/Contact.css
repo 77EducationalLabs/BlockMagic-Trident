@@ -31,8 +31,9 @@
 .ContactContent .ContactImage img {
   align-items    : center;
   justify-content: center;
-  width          : 300px;
-  height         : 300px;
+  width          : 150px;
+  height         : 150px;
+  margin         : .2em;
 }
 
 .ContactContent .ContactSocial {
@@ -100,15 +101,9 @@
 
 @media screen and (max-width: 1200px) {
   .bodyContact {
-    padding  : 2em;
-    max-width: 1300px;
+    padding: 2em;
   }
 
-  .ContactContent .ContactImage img {
-    width : 220px;
-    height: 220px;
-    margin: .4em;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -116,13 +111,6 @@
   .bodyContact {
     padding: 5em 2em 1em;
   }
-
-  .ContactContent .ContactImage img {
-    width : 220px;
-    height: 220px;
-    margin: .4em;
-  }
-
 
   .ContactTitle {
     padding-bottom: 1.2em;
