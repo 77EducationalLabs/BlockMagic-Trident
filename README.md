@@ -139,29 +139,31 @@ Valor arrecadado por Desenvolvedoras
   - Ethereum Sepolia
   - Optimism Sepolia
 - Blockchain Primitives
-  - NFT - ERC721
-  - Stablecoin - ERC20
-- Oráculos
-  - Chainlink Functions
-  - Chainlink CCIP
-  - Chainlink Automation
+  - [NFT - ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
+  - [Stablecoin - ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+- Oracles
+  - [Chainlink Functions](https://docs.chain.link/chainlink-functions)
+  - [Chainlink CCIP](https://chain.link/cross-chain)
+  - [Chainlink Automation](https://docs.chain.link/chainlink-automation)
 - Programming Languages
-  - Solidity
-  - Python
-  - Java Script
-  - TypeScript
-  - C#
+  - [Solidity](https://soliditylang.org/)
+  - [Python](https://www.python.org/)
+  - [JavaScript](https://www.javascript.com/)
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 - Frontend
-  - React
-  - Dynamic
-  - Ethers.js
+  - [React](https://react.dev/)
+  - [Dynamic Wallet](https://www.dynamic.xyz/)
+  - [Ethers.js](https://docs.ethers.org/v5/)
 - Backend
   - API
-  - Data Base
+    - [NestJS](https://nestjs.com/)
+    - [TypeORM](https://typeorm.io/)
+    - [PostgreSQL](https://www.postgresql.org/)
 - Infrastructure
   - Launcher .exe
 - Tools
-  - Generative AI - OpenAI
+  - [Generative AI - OpenAI](https://openai.com/)
 
 ## Meet the Team
 |Name   | Title | Linkedin | X/Twitter | GitHub |     
