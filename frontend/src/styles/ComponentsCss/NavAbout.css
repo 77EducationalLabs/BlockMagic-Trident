@@ -28,6 +28,7 @@ ul {
   flex-direction    : column;
   justify-content   : center;
   align-items       : center;
+  gap               : .3em;
   border            : 0px solid #ffffff;
   background-color  : #0d6a87;
   -webkit-box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
@@ -42,6 +43,10 @@ ul {
 
 .menuAbout li:hover {
   background-color: #07475a;
+}
+
+.navAbout li i {
+  font-size: 1.4em;
 }
 
 @media screen and (max-width: 1300px) {
@@ -67,7 +72,7 @@ ul {
 
   .navAbout li {
     border            : 0px solid #ffffff;
-    padding           : 1.5em;
+    padding           : 2em;
     background-color  : #0d6a87;
     -webkit-box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
     -moz-box-shadow   : 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
@@ -81,4 +86,6 @@ ul {
   li:hover {
     background-color: #07475a;
   }
+
+
 }
