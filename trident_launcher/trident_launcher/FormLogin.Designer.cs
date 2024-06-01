@@ -97,7 +97,6 @@ namespace trident_launcher
             // loginBox
             // 
             loginBox.BackColor = Color.FromArgb(190, 0, 0, 0);
-            loginBox.Cursor = Cursors.Arrow;
             loginBox.Location = new Point(292, 153);
             loginBox.Name = "loginBox";
             loginBox.Size = new Size(456, 353);
@@ -124,6 +123,9 @@ namespace trident_launcher
             ForeColor = Color.White;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MaximumSize = new Size(1032, 718);
+            MinimumSize = new Size(1032, 718);
             Name = "FormLogin";
             RightToLeftLayout = true;
             ShowIcon = false;

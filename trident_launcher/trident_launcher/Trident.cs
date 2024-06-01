@@ -17,7 +17,7 @@ namespace trident_launcher
         private string token;
 
         public Trident(string token)
-        {   
+        {
             InitializeComponent();
             this.token = token;
             this.FormClosing += new FormClosingEventHandler(Trident_FormClosing);
@@ -52,8 +52,8 @@ namespace trident_launcher
             PoolingVerifyGames tridentPooling = new PoolingVerifyGames(token);
             pooling = new Thread(() => tridentPooling.initPooling());
             pooling.Name = nameProcess;
-            pooling.Start();  
-    }
+            pooling.Start();
+        }
 
         private void TextBox_TextChanged(object sender, EventArgs e)
         {
@@ -90,9 +90,8 @@ namespace trident_launcher
 
         private void LogonButton_Click(object sender, EventArgs e)
         {
-           
+
             this.Close();
-           
             // Encerrando todos os processos com o mesmo nome
 
             Thread t = new Thread(() => Application.Run(new FormLogin()));
@@ -115,5 +114,9 @@ namespace trident_launcher
 
         }
 
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

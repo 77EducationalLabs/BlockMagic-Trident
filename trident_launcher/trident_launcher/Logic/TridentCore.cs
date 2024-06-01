@@ -30,6 +30,18 @@ manipulateProcess(Process[] processes)
                 Console.WriteLine("inicio do processo");
                 ApiClient apiConnection = new ApiClient();
                 var orders = await apiConnection.GetUserOrdersAsync(this.token);
+
+            if(orders.Count == 0)
+            {
+                Process process = findProcess("Bellum Galaxy Game", processes);
+                if (process != null)
+                {
+                    Console.WriteLine($"\nTempo do processo = {process.StartTime}");
+                    bool isClosed = process.CloseMainWindow();
+                    process.Kill();
+                }
+
+            }
             if (orders != null)
             {
                 foreach (var order in orders)
@@ -52,10 +64,13 @@ manipulateProcess(Process[] processes)
                     games.Add(gameItem); // Adicione o jogo à lista
                 }
             }
+
+
+
                     foreach (Games game in games)
                     {
                         Process process = findProcess(game.Name, processes);
-
+                        
                         if (process != null)
                         {
                             Console.WriteLine($"Nome: {process.ProcessName}, ID: {process.Id}");

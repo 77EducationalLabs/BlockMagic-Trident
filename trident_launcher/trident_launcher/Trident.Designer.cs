@@ -77,6 +77,7 @@ namespace trident_launcher
             textBox1.TabIndex = 12;
             textBox1.Text = "Bem vindo a Trident";
             textBox1.TextAlign = HorizontalAlignment.Center;
+            textBox1.TextChanged += textBox1_TextChanged_2;
             // 
             // textBox2
             // 
@@ -107,6 +108,7 @@ namespace trident_launcher
             LogonButton.TabIndex = 9;
             LogonButton.Text = "Sair";
             LogonButton.UseVisualStyleBackColor = false;
+            LogonButton.Visible = false;
             LogonButton.Click += LogonButton_Click;
             // 
             // pictureBox1
@@ -145,13 +147,16 @@ namespace trident_launcher
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(994, 540);
+            ClientSize = new Size(992, 540);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(menuBox);
             Controls.Add(LogonButton);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MaximumSize = new Size(1008, 579);
+            MinimumSize = new Size(1008, 579);
             Name = "Trident";
             Text = "Trident";
             TransparencyKey = Color.Gray;
