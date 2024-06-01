@@ -12,14 +12,14 @@
   align-items    : center;
   text-align     : center;
   max-width      : 900px;
-  margin         : 2em 1em;
+  margin         : 4em 1em;
   gap            : 1em;
   min-width      : 50%;
   padding        : 1.5em;
 }
 
 .content img {
-  margin: 1em;
+  width: 50px;
 }
 
 .content h1 {
@@ -43,7 +43,11 @@
 }
 
 .learn {
-  padding: 0.5em 1em 1em;
+  margin-top: 1em;
+}
+
+.learn:hover {
+  color: #0d6a87;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/PagesCss/About.css";
-import Digital from "../assets/digital.png";
+import Digital from "../assets/fingerprint.svg";
 import NavAbout from "../components/NavAbout";
 
 function About() {
@@ -8,9 +8,7 @@ function About() {
     <>
       <div className="main-about" id="about">
         <section className="content">
-          <div className="image">
-            <img src={Digital} />
-          </div>
+          <img src={Digital} />
           <h1>Enter a new era of gaming security</h1>
 
           <p>
@@ -22,7 +20,7 @@ function About() {
             <NavAbout />
             <p>Our platform uses 
               blockchain technology to give you unparalleled control over your 
-              digital assets, empowering you to own and manage your digital gaming 
+              digital games, empowering you to own and manage your digital gaming 
               collection like never before.</p>
               <a className="learn" href="">
               Learn more ⭢
