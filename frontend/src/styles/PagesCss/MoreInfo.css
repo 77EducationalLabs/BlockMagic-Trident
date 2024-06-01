@@ -1,0 +1,40 @@
+.main-moreinfo {
+    padding   : 2em;
+    background: #0a1124;
+    color     : #fff;
+}
+
+.main-moreinfo .content {
+    max-width : 900px;
+    margin    : 0 auto;
+    text-align: center;
+}
+
+.main-moreinfo h2 {
+    font-size  : 28px;
+    font-weight: bold;
+    margin-top : 1em;
+    color      : #e0e0e0;
+}
+
+.main-moreinfo p {
+    font-size  : 16px;
+    line-height: 1.5;
+    margin     : 1em 0;
+    color      : #cacad6;
+}
+
+.main-moreinfo .learn {
+    display         : inline-block;
+    margin-top      : 1.5em;
+    padding         : 0.5em 1em;
+    background-color: #0d6a87;
+    color           : #fff;
+    border-radius   : 5px;
+    text-decoration : none;
+    transition      : background-color 0.3s;
+}
+
+.main-moreinfo .learn:hover {
+    background-color: #07475a;
+}

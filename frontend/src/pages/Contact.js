@@ -5,10 +5,7 @@ import LogoBellum from "../assets/logoBellum.png";
 function Contact() {
   return (
     <>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      />
+      
       <section className="bodyContact" id="Contact">
         <div className="ContactTitle">
           <p>Welcome to</p>
@@ -20,9 +17,8 @@ function Contact() {
         </div>
         <div className="ContactText">
           <p>
-            A rede de distribuição de jogos, com foco em jogos de ação e
-            aventura, que oferece a melhor experiência de jogos para seus
-            jogadores.
+          We are an educational, scientific and technological community, focused on breaking barriers and demystifying technology. 
+          <br />Our mission is to empower individuals by providing learning and development opportunities, where contributions fuel innovation and drive positive change.
           </p>
         </div>
           <div className="ContactSocial">

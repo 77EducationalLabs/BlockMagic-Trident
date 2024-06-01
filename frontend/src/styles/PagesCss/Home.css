@@ -4,10 +4,10 @@
     justify-content: center;
     align-items    : center;
     background     : linear-gradient(180deg, #0a1124 0%, #10334e 100%);
+    overflow       : hidden;
 }
 
 .hero {
-
     margin         : 1em;
     display        : flex;
     flex-direction : row;
@@ -15,6 +15,7 @@
     justify-content: center;
     align-items    : center;
     max-width      : 800px;
+    height         : 70vh;
     padding        : 2em;
 }
 
@@ -22,10 +23,13 @@
     display        : flex;
     flex-direction : column;
     justify-content: center;
-    align-items    : center;
     text-align     : start;
     gap            : 1em;
     min-width      : 50%;
+}
+
+.info-hero {
+    align-items: start;
 }
 
 .subhero h1 {
@@ -66,12 +70,18 @@
     background-color: #07475A;
 }
 
+.subhero img {
+    width: 80%;
+}
+
+
 @media screen and (max-width: 800px) {
     .hero {
         margin        : 10%;
         flex-direction: column;
         gap           : 2em;
         padding       : 1em;
+        overflow      : hidden;
     }
 
     .subhero {

@@ -1,137 +1,129 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .bodyContact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  height: 100vh;
-  padding: 2.5em 1em 1em;
-  background: linear-gradient(180deg, #0a1124 0%, #10334e 100%);
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  background     : linear-gradient(180deg, #0a1124 0%, #10334e 100%);
+  padding        : 10%;
 }
 
 .bodyContact .ContactTitle p {
-  font-size: 20px;
+  font-size  : 20px;
   line-height: 1;
   font-weight: 500;
-  color: #CACAD6;
+  color      : #CACAD6;
 }
 
 .bodyContact .ContactTitle h1 {
-  font-size: 40px;
+  font-size  : 40px;
   font-weight: bold;
-  color: white;
-  padding: .1em 0em .5em;
+  color      : white;
+  margin     : .1em;
 }
 
 .ContactContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
   justify-content: center;
 }
 
 .ContactContent .ContactImage img {
-  align-items: center;
+  align-items    : center;
   justify-content: center;
-  width: 300px;
-  height: 300px;
+  width          : 300px;
+  height         : 300px;
 }
 
 .ContactContent .ContactSocial {
-  top: 50px;
-  left: 320px;
-  display: flex;
+  top           : 50px;
+  left          : 320px;
+  display       : flex;
   flex-direction: row;
-  align-items: center;
+  align-items   : center;
 }
 
 .ContactContent .ContactSocial a {
-  font-size: 25px;
-  color: #CACAD6;
-  cursor: pointer;
-  transition: 0.3s;
+  font-size     : 25px;
+  color         : #CACAD6;
+  cursor        : pointer;
+  transition    : 0.3s;
   padding-inline: .5em;
-  padding-top: .5em;
-  transition: 0.5s;
+  padding-top   : .5em;
+  transition    : 0.5s;
 }
 
 .ContactContent .ContactSocial a:hover {
-  transform: scale(1.2);
+  transform : scale(1.2);
   transition: 0.5s;
-  color: #ffffff;
+  color     : #ffffff;
 }
 
 .ContactContent .ContactText {
-  display: flex;
-  flex-direction: column;
-  max-width: 730px;
-  text-align: center;
-  align-items: center;
+  display        : flex;
+  flex-direction : column;
+  max-width      : 730px;
+  text-align     : center;
+  align-items    : center;
   justify-content: center;
-  padding: 1em;
+  padding        : 1em;
 }
 
 .ContactContent .ContactText p {
   font-size  : 20px;
-    line-height: 1.4;
-    font-weight: 500;
-    color      : #ffffff;
+  line-height: 1.4;
+  font-weight: 500;
+  color      : whitesmoke;
 }
 
 .ContactContent .ContactWeb {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+  display        : flex;
+  flex-direction : column;
+  text-align     : center;
+  align-items    : center;
   justify-content: center;
-  padding: 1.4em;
+  padding        : 1.4em;
 }
 
 .ContactContent .ContactWeb a {
-  color: #ffffff;
-  font-size: 16px;
+  color     : #12a9ae;
+  font-size : 16px;
   transition: 0.5s;
 }
 
 .ContactContent .ContactWeb a:hover {
-  color: #CACAD6;
-  transform: scale(1.1);
+  color     : #CACAD6;
+  transform : scale(1.1);
   transition: 0.5s;
 }
 
 
 @media screen and (max-width: 1200px) {
   .bodyContact {
-    padding: 1em 2em 1em;
-    height: 140vh;
+    padding  : 2em;
     max-width: 1300px;
   }
 
   .ContactContent .ContactImage img {
-    width: 300px;
-    height: 300px;
+    width : 220px;
+    height: 220px;
+    margin: .4em;
   }
 }
 
 @media screen and (max-width: 800px) {
 
-  .bodyContact{
+  .bodyContact {
     padding: 5em 2em 1em;
-    height: 95vh;
-    max-width: 450px;
   }
 
   .ContactContent .ContactImage img {
-    width: 320px;
-    height: 320px;
+    width : 220px;
+    height: 220px;
+    margin: .4em;
   }
 
-  
+
   .ContactTitle {
     padding-bottom: 1.2em;
   }

@@ -6,6 +6,7 @@ import About from "./About";
 import Team from "./Team";
 import Faq from "./Faq";
 import Contact from "./Contact";
+import MoreInfo from "./MoreInfo";
 
 function Home() {
   return (
@@ -40,6 +41,7 @@ function Home() {
         </section>
       </div>
       <About />
+      <MoreInfo />
       <Team />
       <Faq />
       <Contact />

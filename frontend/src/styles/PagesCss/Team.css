@@ -1,175 +1,166 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .bodyTeam {
-  display: flex;
-  flex-direction: column;
+  padding        : 2em 1em;
+  display        : flex;
+  flex-direction : column;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(180deg, #0a1124 0%, #10334e 100%);
+  align-items    : center;
+  background     : linear-gradient(180deg, #0a1124 0%, #10334e 100%);
 }
 
 .textTeam {
-  display: flex;
-  flex-direction: column;
+  display        : flex;
+  flex-direction : column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 850px;
-  padding: 1.5em 0em 1.3em;
-  gap: 0.3em;
-  min-width: 50%;
+  align-items    : center;
+  text-align     : center;
+  max-width      : 850px;
+  padding        : 1.5em 0em 1.3em;
+  gap            : 0.3em;
+  min-width      : 50%;
 }
 
 .textTeam h1 {
-  font-size: 40px;
+  font-size  : 40px;
   font-weight: bold;
-  color: white;
-  width: fit-content;
+  color      : white;
+  width      : fit-content;
 }
 
 .textTeam p {
-  font-size: 18px;
+  font-size  : 18px;
   line-height: 1.4;
-  font-weight: 500;
-  color: #cacad6;
-  padding: 20px 0px 20px;
-}
-
-.swiper {
-  width: 950px;
+  font-weight: normal;
+  color      : #cacad6;
+  padding    : 20px 0px 20px;
 }
 
 .teamContent {
-  padding: .5em 0em 2em;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  flex-wrap      : wrap;
+  gap            : 30px;
+  padding        : 0.5em 0em 2em;
+  margin-bottom  : 4em;
 }
 
-
 .teamCard .cardContent {
-  position: relative;
-  display: flex;
-  align-items: center;
+  position      : relative;
+  display       : flex;
+  align-items   : center;
   flex-direction: column;
 }
 
 .cardContent {
-  position: relative;
-  background-color: #000000;
-  border: 3px solid #0d6a87;
-  border-radius: 8px;
-  width: 300px;
-  height: 350px;
-
-
+  position        : relative;
+  background-color: #0a1124;
+  border          : 3px solid #0d6a87;
+  border-radius   : 8px;
+  width           : 300px;
+  height          : 350px;
 }
 
 .cardContent::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #0d6a87;
+  content           : '';
+  position          : absolute;
+  width             : 100%;
+  height            : 100%;
+  background-color  : #0d6a87;
   -webkit-box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
-  clip-path: circle(55% at 0 0);
-
+  -moz-box-shadow   : 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
+  box-shadow        : 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
+  clip-path         : circle(55% at 0 0);
 }
 
 .cardContent .imageTeam {
-  position: relative;
-  width: 180px;
-  height: 180px;
+  position     : relative;
+  width        : 180px;
+  height       : 180px;
   border-radius: 50%;
-  padding-top: 1em;
-  margin: 1.4em 0em 1.5em;
-  
+  padding-top  : 1em;
+  margin       : 1.4em 0em 1.5em;
 }
 
 .cardContent .imageTeam img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width        : 100%;
+  height       : 100%;
+  object-fit   : cover;
   border-radius: 50%;
 }
 
 .cardContent .social-media {
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  display: flex;
+  position      : absolute;
+  top           : 60px;
+  right         : 20px;
+  display       : flex;
   flex-direction: column;
-  align-items: center;
+  align-items   : center;
 }
 
 .cardContent .social-media a {
-  font-size: 22px;
-  color: #fff;
+  font-size : 22px;
+  color     : #fff;
   margin-top: 10px;
-  cursor: pointer;
+  cursor    : pointer;
   transition: 0.3s;
 }
 
 .cardContent .social-media a:hover {
   transform: scale(1.2);
-  color: #0d6a87;
+  color    : #0d6a87;
 }
 
 .cardContent .teamJob {
-  display: flex;
-  align-items: center;
+  display        : flex;
+  align-items    : center;
   justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  max-width: 270px;
-  gap: 0.3em;
-  margin-top: 10px;
-  color: #fff;
+  text-align     : center;
+  flex-direction : column;
+  max-width      : 270px;
+  gap            : 0.3em;
+  margin-top     : 10px;
+  color          : #fff;
 }
 
 .teamJob .name {
-  font-size: 20px;
+  font-size  : 20px;
   font-weight: bold;
-  color: white;
-  width: fit-content;
+  color      : white;
+  width      : fit-content;
 }
 
 .teamJob .job {
-  font-size: 15px;
-  font-weight: bold;
-  color: rgb(224, 224, 224);
-  width: fit-content;
-}
-
-.teamJob p {
-  font-size: 12px;
-  line-height: 1.4;
-  font-weight: 500;
-  color: #cacad6;
-  padding: 20px 0px 20px;
+  font-size    : 15px;
+  font-weight  : 600;
+  line-height  : 1.1;
+  color        : rgb(224, 224, 224);
+  width        : fit-content;
+  margin-bottom: 2em;
 }
 
 @media screen and (max-width: 900px) {
-
   .bodyTeam {
-    min-height: 780px;
+    padding-top: 20%;
   }
 
   .textTeam {
-    display: flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 600px;
-    padding: 0em 1em 1.3em;
-    gap: 0.3em;
-    min-width: 50%;
+    align-items    : center;
+    text-align     : center;
+    max-width      : 600px;
+    padding        : 0em 1em 1.3em;
+    gap            : 0.3em;
+    min-width      : 50%;
   }
 
+  .teamContent {
+    gap        : 15px;
+    align-items: center;
+  }
 
+  .cardContent {
+    height: auto;
+  }
 }
