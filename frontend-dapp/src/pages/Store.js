@@ -31,6 +31,7 @@ function Store() {
   const [buyingTime, setBuyingTime] = useState("");
   const [gamePrice, setGamePrice] = useState("");
   const [gameId, setGameId] = useState("");
+  const [loading, setLoading] = useState(true);
   const [gameRating, setGameRating] = useState(null);
   const alchemyApiKey = process.env.REACT_APP_ALCHEMY_API_KEY;
   const { primaryWallet } = useDynamicContext();
@@ -70,6 +71,7 @@ function Store() {
       );
 
       const result = await contract.getScoreDailyHistory(gameName);
+      console.log("The result is:", result);
 
       if (result.length > 0) {
         const total = result.reduce(
@@ -109,8 +111,10 @@ function Store() {
         signer
       );
 
-      const approval = await usdcContract.approve(contractAddress, gamePrice.toString());
-      console.log(signer.getAddress());
+      const approval = await usdcContract.approve(
+        contractAddress,
+        gamePrice.toString()
+      );
       const tx = await contract.buyGame(
         1, //Hardcode temporary
         usdcSepoliaAdrees,
