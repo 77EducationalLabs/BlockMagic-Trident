@@ -1,5 +1,4 @@
-import { Controller, Get, Post, Put, Delete, Body, Param, UseGuards, HttpException, HttpStatus } from '@nestjs/common';
-import { AuthGuard } from 'src/auth/auth.guard';
+import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
 import { ScoreDto } from './score.dto';
 import { ScoreService } from './score.service';
 

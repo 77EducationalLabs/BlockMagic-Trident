@@ -1,8 +1,7 @@
-import { Controller, Get, Post, Put, Delete, Body, Param, HttpException, HttpStatus, UseGuards, Headers, Req } from '@nestjs/common';
+import { Controller, Get, Post, Put, Delete, Body, Param, HttpException, HttpStatus, UseGuards, Req } from '@nestjs/common';
 import { OrderService } from './order.service'; // Importe o serviço de pedido
 import { AuthGuard } from 'src/auth/auth.guard';
-import { verify } from 'jsonwebtoken';
-import { ConfigService } from '@nestjs/config';
+
 
 @Controller('order')
 export class OrderController {
