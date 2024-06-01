@@ -1,37 +1,27 @@
 export const questions = [
   {
     id: 1,
-    question: "How does this project work?",
-    answer: "This project works on the blockchain using NFT as a base",
+    question: "How does this platform help in the fight against piracy?",
+    answer: "In the fight against piracy, time is of the essence. Save time, money, and resources by leveraging our cutting-edge anti-piracy technology rather than developing your own.",
   },
   {
     id: 2,
-    question: "What is the main purpose of this game?",
-    answer:
-      "The main purpose of this game is to combine blockchain technology with engaging gameplay to create a unique and rewarding experience for players.",
+    question: "What technology does this platform use?",
+    answer: "Our platform uses blockchain technology to give you unparalleled control over your digital assets, empowering you to own and manage your digital gaming collection like never before.",
   },
   {
     id: 3,
-    question: "How do players earn rewards?",
-    answer:
-      "Players earn rewards through in-game achievements, completing missions, and participating in special events. These rewards are issued as NFTs or cryptocurrency tokens.",
+    question: "How does using blockchain technology benefit users?",
+    answer: "Blockchain technology ensures transparency, security, and true ownership of digital assets, allowing users to buy, sell, and trade with confidence.",
   },
   {
     id: 4,
-    question: "What blockchain is used for this project?",
-    answer:
-      "Our project is built on the Ethereum blockchain due to its robust smart contract capabilities and large developer community.",
+    question: "Can users manage their digital gaming collection?",
+    answer: "Yes, our platform empowers users to own and manage their digital gaming collection like never before.",
   },
   {
     id: 5,
-    question: "Can players trade their in-game assets?",
-    answer:
-      "Yes, players can trade their in-game assets on our marketplace. These assets are represented as NFTs, ensuring ownership and scarcity.",
-  },
-  {
-    id: 6,
-    question: "What is the benefit of using blockchain in gaming?",
-    answer:
-      "Using blockchain in gaming ensures transparency, security, and true ownership of digital assets, allowing players to buy, sell, and trade with confidence.",
+    question: "Does the platform provide a marketplace for trading assets?",
+    answer: "Yes, users can trade their digital assets on our marketplace. These assets are represented as NFTs, ensuring ownership and scarcity.",
   },
 ];

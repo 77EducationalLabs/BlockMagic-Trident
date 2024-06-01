@@ -1,67 +1,49 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .mainFaq {
-  display: flex;
-  flex-direction: column;
+  display        : flex;
+  flex-direction : column;
   justify-content: start;
-  align-items: center;
-  height: 120vh;
-  padding-top: 3em;
-  background: linear-gradient(180deg, #0a1124 0%, #10334e 100%);
+  align-items    : center;
+  padding        : 10% 0;
+  background     : #10334e;
 }
 
 .mainFaq .titleFaq {
-  display: flex;
-  flex-direction: column;
-  padding: 0em 1em 1em;
+  display        : flex;
+  flex-direction : column;
   justify-content: center;
-  align-items: center;
+  align-items    : center;
+  margin-bottom  : 1em;
 }
 
 .contentFaq {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  padding: 1em;
+  padding       : 1em;
 }
 
 
 .accordionFaq {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  padding: 1em;
+  padding       : 1em;
 }
 
 .mainFaq .titleFaq {
-  font-size: 40px;
+  font-size  : 40px;
   font-weight: bold;
-  color: white;
+  color      : white;
 }
 
-@media screen and (max-width: 1200px) {
-
-  .mainFaq {
-    min-height: 200vh;
-  }
-
-}
+@media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 800px) {
 
-  .mainFaq {
-    min-height: 100vh;
+  .mainFaq .titleFaq {
+    display       : flex;
+    padding-top   : 0em;
+    flex-direction: column;
+    text-align    : center;
+    max-width     : 420px;
   }
 
-  .mainFaq .titleFaq {
-    display: flex;
-    padding-top: 0em;
-    flex-direction: column;
-    text-align: center;
-    max-width: 420px;
-    }
-
 }
-

@@ -1,55 +1,45 @@
 .main-about {
-  display: flex;
-  flex-direction: column;
+  background     : #0a1124;
+  display        : flex;
+  align-items    : center;
   justify-content: center;
-  align-items: center;
-  background: linear-gradient(180deg, #0a1124 0%, #10334e 100%);
-}
-
-.image {
-  padding: 3em 1em 1em;
 }
 
 .content {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  text-align     : center;
+  max-width      : 900px;
+  margin         : 2em 1em;
+  gap            : 1em;
+  min-width      : 50%;
+  padding        : 1.5em;
+}
+
+.content img {
   margin: 1em;
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  justify-content: center;
-  align-items: center;
-  max-width: 900px;
-  padding: 2em;
 }
 
-.subContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 0.3em;
-  min-width: 50%;
-}
-
-.subContent h1 {
-  font-size: 40px;
+.content h1 {
+  font-size  : 40px;
   font-weight: bold;
-  color: white;
-  width: fit-content;
+  color      : white;
+  width      : fit-content;
 }
 
-.subContent a {
-  font-size: 16px;
+.content a {
+  font-size  : 16px;
   font-weight: bold;
-  color: #35c1f1;
+  color      : #35c1f1;
 }
 
-.subContent p {
-  font-size: 20px;
+.content p {
+  font-size  : 20px;
   line-height: 1.4;
   font-weight: 500;
-  color: #cacad6;
-  padding: 20px 0px 20px;
+  color      : whitesmoke;
 }
 
 .learn {
@@ -58,19 +48,15 @@
 
 @media screen and (max-width: 800px) {
   .content {
-    margin: 10%;
     flex-direction: column;
-    gap: 2em;
-    padding: 1em;
-    max-width: 420px;
+    text-align    : center;
+    align-items   : center;
+    gap           : 1em;
+    max-width     : 420px;
   }
 
-  .subContent {
-    text-align: center;
-    align-items: center;
-  }
-
-  .subContent img {
-    max-width: 300px;
+  .content img {
+    margin-top: 2em;
+    max-width : 400px;
   }
 }

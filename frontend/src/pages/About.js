@@ -7,25 +7,26 @@ function About() {
   return (
     <>
       <div className="main-about" id="about">
-        <div className="image">
-          <img src={Digital} />
-        </div>
         <section className="content">
-          <div className="subContent">
-            <h1>Go to marked fast, scale even faster</h1>
+          <div className="image">
+            <img src={Digital} />
+          </div>
+          <h1>Enter a new era of gaming security</h1>
 
-            <p>
-              When launching a product, time is of the essence. Save time,
-              money, and resources by using Trinsic's IDtech infrastructure
-              rather than building your own.
-            </p>
-
-            <a className="learn" href="">
-              Learn more ⭢
-            </a>
+          <p>
+              In the fight against piracy, time is of the essence. Save time,
+              money, and resources by leveraging our cutting-edge anti-piracy
+              technology rather than developing your own.  
+          </p>
 
             <NavAbout />
-          </div>
+            <p>Our platform uses 
+              blockchain technology to give you unparalleled control over your 
+              digital assets, empowering you to own and manage your digital gaming 
+              collection like never before.</p>
+              <a className="learn" href="">
+              Learn more ⭢
+            </a>
         </section>
       </div>
     </>
