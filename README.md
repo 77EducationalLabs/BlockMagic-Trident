@@ -96,7 +96,6 @@ Valor arrecadado por Desenvolvedoras
         + -> Receita Extra vindo da Revenda.
 
 ### How we do
-
 1. Pirataria
   - Tornando o acesso limitado através da chave de acesso, mesmo com a copia das dependências do jogo, não seria possível executá-lo. Logo, impossível de ser distribuído ilegalmente.
 2. Jogador no Controle
@@ -106,11 +105,15 @@ Valor arrecadado por Desenvolvedoras
 4. Democratiza o acesso a jogos e consoles.
   - Através da eliminação da pirataria e da geração de renda contínua a partir do market, permite que as desenvolvedoras/distribuidoras reduzam sua margem e, por consequência, mais pessoas tenham acesso.
 
+</br>
+
 ## Next steps
 1. Implement improvements to reduce the cross-chain messaging time to users.
 2. Implement a swapping functionality that allows users to buy using any Dex-tradable coin. However, receiving in specific stable.
 3. Expand the proposal to other software, not only games.
 4. Standardize the process to allow companies to incorporate it into existing infrastructure.
+
+</br>
 
 ## Chainlink Tools Summary Table
 ### Chainlink Functions
@@ -118,6 +121,8 @@ Valor arrecadado por Desenvolvedoras
 |--------------------|----------|------------------------|----------|
 |TridentNFT.sol      |   278    | _update                | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/TridentNFT.sol#L278-L286)|
 |TridentFunctions.sol|   83     | Whole contract         | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/main/SmartContracts/src/TridentFunctions.sol)|
+
+</br>
 
 ### Chainlink CCIP
 |      Contract       |   Line   | Function               |   Go to  |
@@ -128,11 +133,15 @@ Valor arrecadado por Desenvolvedoras
 |CrossChainTrident.sol|   288    | _ccipReceive           | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/CrossChainTrident.sol#L288-L306)|
 |CrossChainTrident.sol|   83     | sendAdminMessage       | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/CrossChainTrident.sol#L169-L171)|
 
+</br>
+
 ### Chainlink Automation
 [Upkeep ID](https://automation.chain.link/sepolia/100294353963328653549617203788371036649238998750535143727578973951519038272398).
 |      Contract       |   Line   | Function               |   Go to  |
 |---------------------|----------|------------------------|----------|
 |Trident.sol          |    287   | gameScorerGetter       | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/Trident.sol#L287-L300)|
+
+</br>
 
 ## Technology
 _in alphabetic order_
