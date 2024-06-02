@@ -5,6 +5,7 @@ import tridentAbi from "../utils/Trident.json";
 import tridentFunctionsAbi from "../utils/TridentFunctions.json";
 import { ethers } from "ethers";
 import bellumGame from "../assets/bellum-game.webp";
+import { useDynamicContext, useUserWallets } from '@dynamic-labs/sdk-react-core';
 
 const contractAddress = "0x873C0df305D75b078f002a81e2e8571021AC7e13";
 const functionsAddress = "0x955386e624Ebc9439737Ec157df6A6ad5B16e892";
@@ -127,6 +128,9 @@ const games = [
   
   
   function Dashboard() {
+    const { primaryWallet } = useDynamicContext();
+    const userWallets = useUserWallets();
+
     const [gameName, setGameName] = useState("");
     const [gameAddress, setGameAddress] = useState("");
     const [buyingTime, setBuyingTime] = useState("");
@@ -186,8 +190,29 @@ const games = [
       return price.toString().replace(/0+$/, "");
     };
 
+    useEffect(() => {
+      if (primaryWallet) {
+        console.log("Endereço da carteira principal:", primaryWallet.address);
+        }
+    }, [primaryWallet]);
+
     return (
       <div className="dashboard">
+        <div className="wallet-info">
+          <h2>Primary Wallet</h2>
+          {primaryWallet ? (
+            <div>
+              <p>Address: {primaryWallet.address}</p>
+              <p>Chain: {primaryWallet.chain}</p>
+              <p>Connected: {primaryWallet.connected ? "Yes" : "No"}</p>
+              <p>Authenticated: {primaryWallet.authenticated ? "Yes" : "No"}</p>
+              {/* Adicione mais informações conforme necessário */}
+            </div>
+          ) : (
+            <p>No wallet connected.</p>
+          )}
+        </div>
+
         <h2>My Games</h2>
         <div className="game-list">
           {games.map((games) => (
