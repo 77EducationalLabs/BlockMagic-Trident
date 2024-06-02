@@ -135,42 +135,69 @@ Valor arrecadado por Desenvolvedoras
 |Trident.sol          |    287   | gameScorerGetter       | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/Trident.sol#L287-L300)|
 
 ## Technology
+_in alphabetic order_
+
+</br>
+
+- Backend
+  - API
+    - [NestJS](https://nestjs.com/)
+    - [TypeORM](https://typeorm.io/)
+    - [PostgreSQL](https://www.postgresql.org/)
+  - Digital Ocean
+  - Supabase
+
+</br>
+
 - Blockchain
   - Ethereum Sepolia
   - Optimism Sepolia
+
+</br>
+
 - Blockchain Primitives
   - [NFT - ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
   - [Stablecoin - ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+
+</br>
+
+- Frontend
+  - CSS
+  - [Dynamic Wallet](https://www.dynamic.xyz/)
+  - [Ethers.js](https://docs.ethers.org/v5/)
+  - HTML
+  - [React](https://react.dev/)
+  - React Icons
+  - Swiper React
+
+</br>
+
+- Generative AI
+  - [OpenAI](https://openai.com/)
+
+</br>
+
+- Infrastructure
+  - Launcher .exe
+  - Visual Basic
+
+</br>
+
 - Oracles
-  - [Chainlink Functions](https://docs.chain.link/chainlink-functions)
-  - [Chainlink CCIP](https://chain.link/cross-chain)
   - [Chainlink Automation](https://docs.chain.link/chainlink-automation)
+  - [Chainlink CCIP](https://chain.link/cross-chain)
+  - [Chainlink Functions](https://docs.chain.link/chainlink-functions)
+  
+</br>
+
 - Programming Languages
   - [Solidity](https://soliditylang.org/)
   - [Python](https://www.python.org/)
   - [JavaScript](https://www.javascript.com/)
   - [TypeScript](https://www.typescriptlang.org/)
   - [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
-- Frontend
-  - [React](https://react.dev/)
-  - [Dynamic Wallet](https://www.dynamic.xyz/)
-  - [Ethers.js](https://docs.ethers.org/v5/)
-  - [HTML]()
-  - [CSS]()
-  - [React Icons]()
-- Backend
-  - API
-    - [NestJS](https://nestjs.com/)
-    - [TypeORM](https://typeorm.io/)
-    - [PostgreSQL](https://www.postgresql.org/)
-    - [Nest.js]()
-  - [Supabase]()
-  - [Digital Ocean]()
-- Infrastructure
-  - Launcher .exe
-  - [Visual Basic]()
-- Tools
-  - [Generative AI - OpenAI](https://openai.com/)
+
+</br>
 
 ## Meet the Team
 |Name   | Title | Linkedin | X/Twitter | GitHub |     
