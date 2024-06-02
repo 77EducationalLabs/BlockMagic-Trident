@@ -34,7 +34,7 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
 ### Summary
 
-1. [Introduction]()
+1. [Introduction](https://github.com/BellumGalaxy/BlockMagic-Trident)
 
    1.1. The History of Piracy
    
