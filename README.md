@@ -12,7 +12,7 @@
 </br>
 
 ### Links
-- Pitch deck video presentation is available on [YouTube]()
+- Pitch deck video presentation is available on [YouTube](https://www.youtube.com/watch?v=R5Az6V7_Q3c)
 - Live demo [website]()
 - [Slide]() presentation
 
