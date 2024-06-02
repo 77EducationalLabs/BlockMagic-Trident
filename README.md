@@ -80,7 +80,7 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
 </br>
 
-## Introduction
+## 1. Introduction
 
 ### 1.1 The History of Piracy
 From ancient times until its peak in the 17th century, pirates stole what did not belong to them. At the time, what was worth money were goods and gold that moved between the seas around the world ([Source](https://super.abril.com.br/historia/no-tempo-dos-corsarios-e-piratas#:~:text=Na%20verdade%2C%20a%20pirataria%20n%C3%A3o,Gr%C3%A9cia%20at%C3%A9%20o%20imp%C3%A9rio%20romano.)).
@@ -92,6 +92,28 @@ Nowadays, goods such as software, games, music, films, books, and many other thi
 </br>
 
 ### 1.2. The Problems
+The cost of piracy is practically impossible to measure given its intangible and/or difficult to measure consequences, such as:
+- **Loss of revenue**
+
+  Game development companies do not receive the expected money, and since building a game is a long and high-cost process, this loss ends up being passed on to the end consumer, resulting in increasingly higher prices for the customer.
+
+- **Security and privacy**
+
+  Anyone who uses pirate games is facing high security and privacy risks as these games may contain malware and viruses.
+
+- **Competitive disadvantage**
+
+  Pirate versions of games may contain ways to gain unfair advantages in online games, which harm the gameplay and experience for all players.
+
+- **Impact on creativity**
+
+  Having a game pirated, with the insertion of unfair advantages and compromising security, can ruin a game's reputation. And all of this can have consequences for the creation and innovation of new content. Imagine taking years to build something and in days other people destroy it? It shakes anyone's in good faith.
+
+- **Legal Problems**
+
+  In addition to harming the entire ecosystem, from the industry to the legal customer, users of a pirate version put themselves at risk of facing legal action and being arrested.
+
+
 - Uma vez que investe na compra do jogo, independente do tempo que ele se dedique aquele jogo, esse investimento jamais será recuperado
 - Ao decorrer do tempo e demanda, o valor dos jogos cai drasticamente e eventualmente deixam de ser realmente lucrativos.
 - Alto custo de jogos.
