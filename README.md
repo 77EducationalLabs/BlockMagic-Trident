@@ -34,7 +34,7 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
 ### Summary
 
-1. [Introduction](https://github.com/BellumGalaxy/BlockMagic-Trident)
+1. [Introduction](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#1-introduction)
 
    1.1. The History of Piracy
    
@@ -46,7 +46,7 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
    
 2. [Trident Protocol Prototype](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#2-trident-protocol-prototype)
 
-3. [Chainlink Tools Summary Table](Chainlink Tools Summary Table)
+3. [Chainlink Tools Summary Table](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#3-chainlink-tools-summary-table)
 
    3.1. Chainlink Functions
 
@@ -54,11 +54,11 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
    3.3. Chainlink Automation - Chainlink’s hyper-reliable Automation network
 
-4. Technologies Used
+4. [Technologies Used](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#4-technologies-used)
    
-5. Next Steps
+5. [Next Steps](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#5-next-steps)
 
-6. [Meet the Team]()
+6. [Meet the Team](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#6-meet-the-team)
 
 </br>
 
