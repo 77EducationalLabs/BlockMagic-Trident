@@ -124,7 +124,7 @@ The cost of piracy is practically impossible to measure given its intangible and
 </br>
 
 ### 1.3. Market Size
-As mentioned in the item above, piracy is hard to measure. According to researchers, gaming industry losses reach around 30% of the global market revenue. In current numbers, that translates to over 118 billion dollars per year. Also, consider that it has been estimated that the global market revenue is going to reach 548 billion dollars in the next 6 years, which elevates the losses to more than 164 billion dollars a year.
+As mentioned in the item above, piracy is hard to measure. According to researchers, the gaming industry's losses reach around 30% of the global market revenue. In current numbers, that translates to over 118 billion dollars per year. Also, consider that it has been estimated that the global market revenue is going to reach 548 billion dollars in the next 6 years, which elevates the losses to more than 164 billion dollars a year.
 
 Another thing we have to keep in mind is the users: there are 3 billion of them around the globe. Also, gaming is not restricted to teenagers anymore: 83% of users are between 16 and 44 years old.
 
@@ -135,21 +135,30 @@ Sources: [one](https://www.ign.com/articles/2002/02/07/videogames-grow-to-94-bil
 ### 1.4. Trident: The Solution
 To overcome this old problem we had to use technological tools and creativity to create the ultimate solution against game piracy. We were inspired by Poseidon, the god of the seas and protector of the sailors. With his Trident, symbol of power and strength, he can control the waters and create storms.
 
-That way, we united the best of the WEB2: the games, with the best of the WEB3: the blockchain, to secure digital creation and innovation with a system that assurance the authenticity and integrity of games with unique and immutable records, guaranteeing long-term revenue to developers. Also, we open a new horizon of possibilities for the player, such as selling the game legally, and bringing democratization access to games
+That way, we united the best of the WEB2: the games, with the best of the WEB3: the blockchain, to secure digital creation and innovation with a system that assurance the authenticity and integrity of games with unique and immutable records, guaranteeing long-term revenue to developers. Also, we open a new horizon of possibilities for the player, such as selling the game legally and democratizing access to games.
 
 </br>
 
 ### How we do it
-We are able to prevent piracy by making the game access limited through an NFT-key, so even one has a copy of the game one cannot execute it. Therefore, without the _advantages_ of buying an illegal copy, piracy would not occur.
+We are able to prevent piracy by making the game access limited through an NFT-Key, so even if someone has a copy of the game he cannot execute it. Therefore, without the _advantages_ of buying an illegal copy, piracy would not occur.
 With an NFT the player and the developers gain:
 - players are also owners, of their NFTs, and can sell them and recover part of their investment or reinvest in new games.
 - by eliminating piracy and the loss it causes to the industry, developers would gain up to 30% plus on sales and also guarantee a lifetime revenue that would come from the re-sells. That means every time a player sells his NFT, the developers are going to receive a percentage that is intrinsically and directly from this sale.
 
-All of that consequently reduce the final price of games making it more accessible to people!
+All of that consequently reduces the final price of games making it more accessible to people!
 
 </br>
 
 ## 2. Trident Protocol Prototype
+As mentioned, Trident merged Web2 and Web3 to solve one of the biggest problems of games and software in general. To do so, we use Web3 primitives such as NFTs and ERC20 to ensure uniqueness and easy negotiability with Chainlink Solutions and the old and good .exe software in C#.
+
+Our collectible NFTs are the key to accessing the game. Although a user somehow obtained the game, it will not execute. Because every time he tries to run it, our system will check for the NFT-Key of that specific game in his e-mail wallet. If the NFT-Key is not there, the game will not open.
+
+To access the game, the user must access the site, buy the game, and wait for Chainlink functions to process the request. Once it's finished, the user will be able to play. And, of course, once bought, the game is yours. You will be able to sell it if you want. But don't worry. When the NFT-Key is transferred, the receiver can start playing immediately, and you will lose access.
+
+Chainlink revolutionized the blockchain into a safe cross-chain environment, and we must take advantage of it. So, the user can pay for the game with CCIP-compatible tokens in any CCIP-compatible EVM.
+
+Once a new game is launched, our IA buddy starts to monitor user's opinions on social media. By doing it, we can retrieve valuable and spontaneous opinions about our games. Once a day, Chainlink Automation will trigger our Chainlink Functions, which will call our AI buddy to start checking the heat.
 
 </br>
 
