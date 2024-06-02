@@ -40,7 +40,9 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
    
    1.2. The Problems
 
-   1.3. Trident: The Solution
+   1.3. Market Size
+   
+   1.4. Trident: The Solution
    
 3. Trident Protocol
 
@@ -113,14 +115,21 @@ The cost of piracy is practically impossible to measure given its intangible and
 
   In addition to harming the entire ecosystem, from the industry to the legal customer, users of a pirate version put themselves at risk of facing legal action and being arrested.
 
+- **Bad investment**
 
-- Uma vez que investe na compra do jogo, independente do tempo que ele se dedique aquele jogo, esse investimento jamais será recuperado
-- Ao decorrer do tempo e demanda, o valor dos jogos cai drasticamente e eventualmente deixam de ser realmente lucrativos.
-- Alto custo de jogos.
+  Buying games can be considered a bad investment since the amount to buy them will never be recovered by the consumer.
+  
+- **Devaluation**
+
+  The value of a game continuously drops after its launch period, and eventually stops being lucrative for the developers.
 
 </br>
 
-### 1.3. Trident: The Solution
+### 1.3. Market Size
+
+</br>
+
+### 1.4. Trident: The Solution
 
 - Trident
   - NFT software. Uma vez que o nft é revendido a pessoa perde acesso à ele.
