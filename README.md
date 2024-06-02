@@ -35,12 +35,18 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 ### Summary
 
 1. [Introduction]()
+
+   1.1. The History of Piracy
    
-2. Trident Protocol
+   1.2. The Problems
+
+   1.3. Trident: The Solution
+   
+3. Trident Protocol
 
    2.1. The Prototype
 
-3. Tools Used
+4. Tools Used
 
    3.1. Chainlink VRF - Verifiable Random Function
 
@@ -56,17 +62,17 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
    3.7. Artificial Intelligence with OpenAI
 
-4. Operation
+5. Operation
 
-5. Cost Projection
+6. Cost Projection
 
-6. Evolution of the Protocol
+7. Evolution of the Protocol
 
-7.  Conclusion
+8.  Conclusion
 
-8. Developer Session
+9. Developer Session
 
-9. [Meet the Team]()
+10. [Meet the Team]()
 
 </br>
 
@@ -74,14 +80,25 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
 
 </br>
 
-## Problem
+## Introduction
 
-- Primeiro relato de pirataria foi no século 17. Documento inglês que se referia à "piratas de palavras", ou seja, pessoas que copiavam conteúdo escrito indevidamente. [fonte](https://super.abril.com.br/mundo-estranho/por-que-usamos-o-termo-pirata-para-produtos-falsificados)
+### 1.1 The History of Piracy
+From ancient times until its peak in the 17th century, pirates stole what did not belong to them. At the time, what was worth money were goods and gold that moved between the seas around the world ([Source](https://super.abril.com.br/historia/no-tempo-dos-corsarios-e-piratas#:~:text=Na%20verdade%2C%20a%20pirataria%20n%C3%A3o,Gr%C3%A9cia%20at%C3%A9%20o%20imp%C3%A9rio%20romano.)).
+
+The term "piracy" with a meaning of a stolen product, that is, an unauthorized copy of the original, appears for the first time in an English document dating from the 17th century to refer to text thieves ([Source](http://abril.com.br/mundo-estranho/por-que-usamos-o-termo-pirata-para-produtos-falsificados)), which today is better known as plagiarism.
+
+Nowadays, goods such as software, games, music, films, books, and many other things, protected by copyright laws, are the most susceptible to these acts of piracy. And what used to be a certain sentence to the gallows, today goes unpunished by most systems due to the difficulty of connecting the act to the pirate.
+
+</br>
+
+### 1.2. The Problems
 - Uma vez que investe na compra do jogo, independente do tempo que ele se dedique aquele jogo, esse investimento jamais será recuperado
 - Ao decorrer do tempo e demanda, o valor dos jogos cai drasticamente e eventualmente deixam de ser realmente lucrativos.
 - Alto custo de jogos.
 
-## Solution
+</br>
+
+### 1.3. Trident: The Solution
 
 - Trident
   - NFT software. Uma vez que o nft é revendido a pessoa perde acesso à ele.
