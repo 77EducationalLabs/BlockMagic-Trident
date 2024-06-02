@@ -256,14 +256,13 @@ _in alphabetic order_
 
 </br>
 
-## Next steps
-
-Trident's next steps are to refine our integration, reinforce security measures, and start building new features. Our goal is to abstract complexity to facilitate mass adoption. For the web3 users, we plan to develop a swapping mechanism by integrating Chainlink Price Feeds for users to just select any DEX-tradable token, and we do the rest receiving it in a CCIP-compatible one. It also can be achieved by integrating already well-designed and functional BUILD protocols like Concero and others. Trident will also improve some of the features already implemented as the royalties and lock period systems to cover the Publisher side of the business. The NFT-Key tiers and Chainlink VRF are great tools for publishers to create marketing campaigns and foment their communities to increase revenue.
-
+## Next Steps
 1. Implement improvements to reduce the cross-chain messaging time to users.
 2. Implement a swapping functionality that allows users to buy using any Dex-tradable coin. However, receiving in specific stable.
 3. Expand the proposal to other software, not only games.
 4. Standardize the process to allow companies to incorporate it into existing infrastructure.
+   
+Trident's next steps are to refine our integration, reinforce security measures, and start building new features. Our goal is to abstract complexity to facilitate mass adoption. For the web3 users, we plan to develop a swapping mechanism by integrating Chainlink Price Feeds for users to just select any DEX-tradable token, and we do the rest receiving it in a CCIP-compatible one. It also can be achieved by integrating already well-designed and functional BUILD protocols like Concero and others. Trident will also improve some of the features already implemented as the royalties and lock period systems to cover the Publisher side of the business. The NFT-Key tiers and Chainlink VRF are great tools for publishers to create marketing campaigns and foment their communities to increase revenue.
 
 </br>
 
