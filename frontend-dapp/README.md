@@ -84,7 +84,7 @@ The `REACT_APP_CLIENT_ID` is required for authentication and access to the Dynam
 
 By following these steps, you ensure that your React application is properly configured to use both `REACT_APP_ALCHEMY_API_KEY` and `REACT_APP_CLIENT_ID` for interacting with Alchemy and Dynamic wallet respectively.
 
-3. **Install the dependencies:**
+### 3. **Install the dependencies:**
 
    Using `npm`:
 
@@ -98,7 +98,7 @@ By following these steps, you ensure that your React application is properly con
    yarn install
    ```
 
-4. **Run the project:**
+### 4. **Run the project:**
 
    Using `npm`:
 
