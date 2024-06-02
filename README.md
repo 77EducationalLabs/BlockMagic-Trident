@@ -87,7 +87,7 @@ From ancient times until its peak in the 17th century, pirates stole what did no
 
 The term "piracy" with a meaning of a stolen product, that is, an unauthorized copy of the original, appears for the first time in an English document dating from the 17th century to refer to text thieves ([Source](http://abril.com.br/mundo-estranho/por-que-usamos-o-termo-pirata-para-produtos-falsificados)), which today is better known as plagiarism.
 
-Nowadays, goods such as software, games, music, films, books, and many other things, protected by copyright laws, are the most susceptible to these acts of piracy. And what used to be a certain sentence to the gallows, today goes unpunished by most systems due to the difficulty of connecting the act to the pirate.
+Nowadays, goods such as software, games, music, films, books, and many other things, protected by copyright laws, are the most susceptible to these acts of piracy. In the gaming industry specifically, in the early 90s games were already pirated by transferring their files and media to a computer and making them available on the internet ([Source](https://www.redbull.com/br-pt/piratas-foram-os-primeiros-historiadores-dos-games)). And what used to be a certain sentence to the gallows, today goes unpunished by most systems due to the difficulty of connecting the act to the pirate.
 
 </br>
 
