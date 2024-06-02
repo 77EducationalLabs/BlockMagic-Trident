@@ -13,7 +13,7 @@
 
 ### Links
 - Pitch deck video presentation is available on [YouTube](https://www.youtube.com/watch?v=R5Az6V7_Q3c)
-- Live demo [website]()
+- Live demo [website](https://bellumgalaxy-trident.vercel.app/)
 - [Slide]() presentation
 
 </br>
