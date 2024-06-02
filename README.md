@@ -44,35 +44,21 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
    
    1.4. Trident: The Solution
    
-3. Trident Protocol Prototype
+2. [Trident Protocol Prototype](https://github.com/BellumGalaxy/BlockMagic-Trident?tab=readme-ov-file#2-trident-protocol-prototype)
 
-4. Tools Used
+3. [Chainlink Tools Summary Table](Chainlink Tools Summary Table)
 
-   3.1. Chainlink VRF - Verifiable Random Function
+   3.1. Chainlink Functions
 
    3.2. Chainlink CCIP - Cross-Chain Interoperability Protocol
 
-   3.3. Chainlink Functions
+   3.3. Chainlink Automation - Chainlink’s hyper-reliable Automation network
 
-   3.4. Chainlink Automation - Chainlink’s hyper-reliable Automation network
+4. Technologies Used
+   
+5. Next Steps
 
-   3.5. [Chainlink Tools Summary Table]()
-
-   3.6. API - Application Programming Interface
-
-   3.7. Artificial Intelligence with OpenAI
-
-5. Operation
-
-6. Cost Projection
-
-7. Evolution of the Protocol
-
-8.  Conclusion
-
-9. Developer Session
-
-10. [Meet the Team]()
+6. [Meet the Team]()
 
 </br>
 
@@ -162,9 +148,9 @@ Once a new game is launched, our IA buddy starts to monitor user's opinions on s
 
 </br>
 
-## Chainlink Tools Summary Table
+## 3. Chainlink Tools Summary Table
 
-### Chainlink Functions
+### 3.1. Chainlink Functions
 |      Contract      |   Line   | Function               |   Go to  |
 |--------------------|----------|------------------------|----------|
 |TridentNFT.sol      |   278    | _update                | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/TridentNFT.sol#L278-L286)|
@@ -172,7 +158,7 @@ Once a new game is launched, our IA buddy starts to monitor user's opinions on s
 
 </br>
 
-### Chainlink CCIP
+### 3.2. Chainlink CCIP - Cross-Chain Interoperability Protocol
 |      Contract       |   Line   | Function               |   Go to  |
 |---------------------|----------|------------------------|----------|
 |Trident.sol          |   278    | _sendMessage           | [Check](https://github.com/BellumGalaxy/BlockMagic-Trident/blob/e96ca88b53d1dac287eb711b2696e322082fac18/SmartContracts/src/Trident.sol#L424-L450)|
@@ -183,7 +169,7 @@ Once a new game is launched, our IA buddy starts to monitor user's opinions on s
 
 </br>
 
-### Chainlink Automation
+### 3.3 Chainlink Automation - Chainlink’s hyper-reliable Automation network
 [Upkeep ID](https://automation.chain.link/sepolia/100294353963328653549617203788371036649238998750535143727578973951519038272398).
 |      Contract       |   Line   | Function               |   Go to  |
 |---------------------|----------|------------------------|----------|
@@ -191,7 +177,7 @@ Once a new game is launched, our IA buddy starts to monitor user's opinions on s
 
 </br>
 
-## Technology
+## 4. Technologies Used
 _in alphabetic order_
 
 </br>
@@ -256,7 +242,7 @@ _in alphabetic order_
 
 </br>
 
-## Next Steps
+## 5. Next Steps
 1. Implement improvements to reduce the cross-chain messaging time to users.
 2. Implement a swapping functionality that allows users to buy using any Dex-tradable coin. However, receiving in specific stable.
 3. Expand the proposal to other software, not only games.
@@ -266,7 +252,7 @@ Trident's next steps are to refine our integration, reinforce security measures,
 
 </br>
 
-## Meet the Team
+## 6. Meet the Team
 |Name   | Title | Linkedin | X/Twitter | GitHub |     
 |-------|-----------|----------|-----------|--------|
 | Barba | Blockchain Developer & Security Researcher | [Link](https://www.linkedin.com/in/i3arba/) | [Link](x.com/i3arba) | [Link](https://github.com/i3arba) |
