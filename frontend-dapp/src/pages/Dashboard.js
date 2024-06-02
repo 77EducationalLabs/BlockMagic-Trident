@@ -198,21 +198,6 @@ const games = [
 
     return (
       <div className="dashboard">
-        <div className="wallet-info">
-          <h2>Primary Wallet</h2>
-          {primaryWallet ? (
-            <div>
-              <p>Address: {primaryWallet.address}</p>
-              <p>Chain: {primaryWallet.chain}</p>
-              <p>Connected: {primaryWallet.connected ? "Yes" : "No"}</p>
-              <p>Authenticated: {primaryWallet.authenticated ? "Yes" : "No"}</p>
-              {/* Adicione mais informações conforme necessário */}
-            </div>
-          ) : (
-            <p>No wallet connected.</p>
-          )}
-        </div>
-
         <h2>My Games</h2>
         <div className="game-list">
           {games.map((games) => (
