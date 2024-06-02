@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+<div style="text-align: center;">
+  <img src="/frontend-dapp/src/assets/trident.png" alt="Project Logo" width="100"/>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Trident Frontend DApp
+
+This is a React frontend project that uses the Alchemy API KEY and requires authentication with a client ID defined on the Dynamic.xyz website. Follow the instructions below to set up and run the project on your local environment.
+
+## Setup
+
+Before starting the project, you need to configure some environment variables. There is a provided `.env.example` file in the root of the project. Rename this file to `.env` and add the required variables.
+
+### Setup Steps
+
+### 1. **Clone the repository:**
+
+```sh
+git clone https://github.com/BellumGalaxy/BlockMagic-Trident/tree/main/frontend-dapp
+cd frontend-dapp
+```
+
+### 2. Setting up Environment Variables
+
+**Rename the `.env.example` file:**
+
+In the root of the project, rename the `.env.example` file to `.env` and add the provided variables:
+
+```sh
+mv .env.example .env
+```
+
+#### `REACT_APP_ALCHEMY_API_KEY`
+
+The `REACT_APP_ALCHEMY_API_KEY` is required to access the Alchemy API for Ethereum blockchain integration.
+
+1. **Obtain the Alchemy API Key:**
+
+   - Go to [Alchemy Dashboard](https://dashboard.alchemy.com/apps).
+   - Click on "Create App" and give your app a name (e.g., MyReactApp).
+   - Select "Ethereum" as the blockchain and choose the appropriate network (e.g., Sepolia).
+   - Your API key will be generated automatically. Copy it.
+
+2. **Configure Your Project:**
+
+   - In your project directory, locate the `.env` file.
+   - Open the `.env` file and edit the following line:
+
+     ```env
+     REACT_APP_ALCHEMY_API_KEY=your_alchemy_api_key_here
+     ```
+
+     Replace `your_alchemy_api_key_here` with the API key obtained from the Alchemy Dashboard.
+
+#### `REACT_APP_CLIENT_ID`
+
+The `REACT_APP_CLIENT_ID` is required for authentication and access to the Dynamic wallet services.
+
+1. **Access Dynamic.xyz Developer Dashboard:**
+
+   - Go to the [Dynamic.xyz website](https://app.dynamic.xyz/).
+   - Navigate to the 'Developers' section.
+
+2. **Find SDK & API Keys:**
+
+   - Locate the 'SDK & API Keys' section within the Developers section.
+
+3. **Copy the Environment ID**
+
+4. **Configure Your Project:**
+
+   - Open the `.env` file in your project directory.
+   - Edit the following line in your `.env` file:
+
+     ```env
+     REACT_APP_CLIENT_ID=your_dynamic_client_id_here
+     ```
+
+   - Replace `your_dynamic_client_id_here` with the environment ID obtained from the Dynamic.xyz Developer Dashboard.
+
+5. **Save and Use:**
+
+   - Save the `.env` file.
+   - You can now access `process.env.REACT_APP_ALCHEMY_API_KEY` for Alchemy API and `process.env.REACT_APP_CLIENT_ID` for Dynamic wallet in your React project to integrate blockchain functionality and authentication.
+
+By following these steps, you ensure that your React application is properly configured to use both `REACT_APP_ALCHEMY_API_KEY` and `REACT_APP_CLIENT_ID` for interacting with Alchemy and Dynamic wallet respectively.
+
+3. **Install the dependencies:**
+
+   Using `npm`:
+
+   ```sh
+   npm install
+   ```
+
+   Or using `yarn`:
+
+   ```sh
+   yarn install
+   ```
+
+4. **Run the project:**
+
+   Using `npm`:
+
+   ```sh
+   npm start
+   ```
+
+   Or using `yarn`:
+
+   ```sh
+   yarn start
+   ```
+
+   The project will run in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
