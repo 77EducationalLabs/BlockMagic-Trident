@@ -126,6 +126,11 @@ The cost of piracy is practically impossible to measure given its intangible and
 </br>
 
 ### 1.3. Market Size
+As mentioned in the item above, piracy is hard to measure. According to researchers, gaming industry losses reach around 30% of the global market revenue. In current numbers, that translates to over 118 billion dollars per year. Also, consider that it has been estimated that the global market revenue is going to reach 548 billion dollars in the next 6 years, which elevates the losses to more than 164 billion dollars a year.
+
+Another thing we have to keep in mind is the users: there are 3 billion of them around the globe. Also, gaming is not restricted to teenagers anymore: 83% of users are between 16 and 44 years old.
+
+Sources: [one](https://www.ign.com/articles/2002/02/07/videogames-grow-to-94-billion-in-2001), [two](https://www.statista.com/topics/1680/gaming/#topicOverview), [three](https://canaltech.com.br/games/como-a-pirataria-popularizou-os-jogos-no-brasil-198789/), [four](https://canaltech.com.br/games/como-a-pirataria-popularizou-os-jogos-no-brasil-198789/).
 
 </br>
 
