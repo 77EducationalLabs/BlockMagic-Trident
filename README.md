@@ -44,9 +44,7 @@ Join us on [Discord](https://discord.com/invite/H2UpdzbbRJ) and together, we sha
    
    1.4. Trident: The Solution
    
-3. Trident Protocol
-
-   2.1. The Prototype
+3. Trident Protocol Prototype
 
 4. Tools Used
 
@@ -135,40 +133,28 @@ Sources: [one](https://www.ign.com/articles/2002/02/07/videogames-grow-to-94-bil
 </br>
 
 ### 1.4. Trident: The Solution
+To overcome this old problem we had to use technological tools and creativity to create the ultimate solution against game piracy. We were inspired by Poseidon, the god of the seas and protector of the sailors. With his Trident, symbol of power and strength, he can control the waters and create storms.
 
-- Trident
-  - NFT software. Uma vez que o nft é revendido a pessoa perde acesso à ele.
-  - O software passa a ser propriedade do usuário. Onde ele poderá vende-lo eventualmente.
-  - Bilhões de dólares são perdidos devido a pirataria. Além desses, outros bilhões ficam na mesa uma vez que o preço do software passa a declinar. Com a revenda, a desenvolvedora sempre terá uma fatia de qualquer venda.
-  - Eliminando a pirataria, e todo o prejuízo que ela causa à industria, o valor dos softwares é diretamente influenciado positivamente. Com isso o preço é reduzido, tornando-os mais acessíveis a grande massa.
- 
-Valor arrecadado por Desenvolvedoras
-  + Valor que era Perdido com Pirataria
-    + -> Redução no Preço do Software
-      + -> Aumento na Base de Clientes
-        + -> Receita Extra vindo da Revenda.
-
-### How we do
-1. Pirataria
-  - Tornando o acesso limitado através da chave de acesso, mesmo com a copia das dependências do jogo, não seria possível executá-lo. Logo, impossível de ser distribuído ilegalmente.
-2. Jogador no Controle
-  - Torna o jogo uma propriedade e permite que os jogadores, seus proprietários, comercializem seus ativos de modo à recuperar parte do seu investimento ou reinvestir em novos jogos.
-3. Renda de longo prazo para desenvolvedoras.
-  - A partir da possibilidade de venda, desenvolvedoras/distribuidoras receberão uma % do valor da revenda dos jogos e, por consequência, seus produtos continuarão rendendo no longo prazo.
-4. Democratiza o acesso a jogos e consoles.
-  - Através da eliminação da pirataria e da geração de renda contínua a partir do market, permite que as desenvolvedoras/distribuidoras reduzam sua margem e, por consequência, mais pessoas tenham acesso.
+That way, we united the best of the WEB2: the games, with the best of the WEB3: the blockchain, to secure digital creation and innovation with a system that assurance the authenticity and integrity of games with unique and immutable records, guaranteeing long-term revenue to developers. Also, we open a new horizon of possibilities for the player, such as selling the game legally, and bringing democratization access to games
 
 </br>
 
-## Next steps
-1. Implement improvements to reduce the cross-chain messaging time to users.
-2. Implement a swapping functionality that allows users to buy using any Dex-tradable coin. However, receiving in specific stable.
-3. Expand the proposal to other software, not only games.
-4. Standardize the process to allow companies to incorporate it into existing infrastructure.
+### How we do it
+We are able to prevent piracy by making the game access limited through an NFT-key, so even one has a copy of the game one cannot execute it. Therefore, without the _advantages_ of buying an illegal copy, piracy would not occur.
+With an NFT the player and the developers gain:
+- players are also owners, of their NFTs, and can sell them and recover part of their investment or reinvest in new games.
+- by eliminating piracy and the loss it causes to the industry, developers would gain up to 30% plus on sales and also guarantee a lifetime revenue that would come from the re-sells. That means every time a player sells his NFT, the developers are going to receive a percentage that is intrinsically and directly from this sale.
+
+All of that consequently reduce the final price of games making it more accessible to people!
+
+</br>
+
+## 2. Trident Protocol Prototype
 
 </br>
 
 ## Chainlink Tools Summary Table
+
 ### Chainlink Functions
 |      Contract      |   Line   | Function               |   Go to  |
 |--------------------|----------|------------------------|----------|
@@ -258,6 +244,17 @@ _in alphabetic order_
   - [JavaScript](https://www.javascript.com/)
   - [TypeScript](https://www.typescriptlang.org/)
   - [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
+
+</br>
+
+## Next steps
+
+Trident's next steps are to refine our integration, reinforce security measures, and start building new features. Our goal is to abstract complexity to facilitate mass adoption. For the web3 users, we plan to develop a swapping mechanism by integrating Chainlink Price Feeds for users to just select any DEX-tradable token, and we do the rest receiving it in a CCIP-compatible one. It also can be achieved by integrating already well-designed and functional BUILD protocols like Concero and others. Trident will also improve some of the features already implemented as the royalties and lock period systems to cover the Publisher side of the business. The NFT-Key tiers and Chainlink VRF are great tools for publishers to create marketing campaigns and foment their communities to increase revenue.
+
+1. Implement improvements to reduce the cross-chain messaging time to users.
+2. Implement a swapping functionality that allows users to buy using any Dex-tradable coin. However, receiving in specific stable.
+3. Expand the proposal to other software, not only games.
+4. Standardize the process to allow companies to incorporate it into existing infrastructure.
 
 </br>
 
