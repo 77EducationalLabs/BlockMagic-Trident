@@ -155,20 +155,27 @@ Valor arrecadado por Desenvolvedoras
   - [React](https://react.dev/)
   - [Dynamic Wallet](https://www.dynamic.xyz/)
   - [Ethers.js](https://docs.ethers.org/v5/)
+  - [HTML]()
+  - [CSS]()
+  - [React Icons]()
 - Backend
   - API
     - [NestJS](https://nestjs.com/)
     - [TypeORM](https://typeorm.io/)
     - [PostgreSQL](https://www.postgresql.org/)
+    - [Nest.js]()
+  - [Supabase]()
+  - [Digital Ocean]()
 - Infrastructure
   - Launcher .exe
+  - [Visual Basic]()
 - Tools
   - [Generative AI - OpenAI](https://openai.com/)
 
 ## Meet the Team
 |Name   | Title | Linkedin | X/Twitter | GitHub |     
 |-------|-----------|----------|-----------|--------|
-| Barba | Solidity Developer & Security Researcher | [Link](https://www.linkedin.com/in/i3arba/) | [Link](x.com/i3arba) | [Link](https://github.com/i3arba) |
+| Barba | Blockchain Developer & Security Researcher | [Link](https://www.linkedin.com/in/i3arba/) | [Link](x.com/i3arba) | [Link](https://github.com/i3arba) |
 | Raffa | Data Scientist & Blockchain Analyst | [Link](https://www.linkedin.com/in/raffaela-loffredo/) | [Link](https://twitter.com/loffredods) | [Link](https://github.com/raffaloffredo) |
 | Gabriel | Crawler, Python, Node.js, C# Developer | [Link](https://www.linkedin.com/in/gabriel-muniz-schneider/) | - | [Link](https://github.com/dejazz) |
 | Cayo | Frontend Developer | [Link](https://www.linkedin.com/in/cayo-morais-070b721b9/) | - | [Link](https://github.com/CayoTarcisio) |
