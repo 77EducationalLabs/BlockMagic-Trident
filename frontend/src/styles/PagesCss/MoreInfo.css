@@ -22,9 +22,9 @@
     color      : #cacad6;
 }
 
-.main-moreinfo i {
-    font-size : 4em;
-    margin-top: .4em;
+.main-moreinfo img {
+    width     : 4em;
+    margin-top: 4em;
 }
 
 .main-moreinfo .learn {
@@ -32,7 +32,7 @@
     margin-top      : 1.5em;
     padding         : 0.5em 1em;
     background-color: #0d6a87;
-    color           : #fff;
+    color           : whitesmoke;
     border-radius   : 5px;
     text-decoration : none;
     transition      : background-color 0.3s;

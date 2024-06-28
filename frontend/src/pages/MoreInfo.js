@@ -1,23 +1,26 @@
 import React from "react";
 import "../styles/PagesCss/MoreInfo.css";
+import shieldWhiteLogo from "../assets/shield-white.svg";
+import hatWizardLogo from "../assets/hat-wizard.svg";
+import dragonLogo from "../assets/dragon.svg";
 
 function MoreInfo() {
   return (
     <div className="main-moreinfo" id="moreinfo">
       <section className="content">
-        <i class="fa-solid fa-shield-halved"></i>
+        <img src={shieldWhiteLogo}></img>
         <h2>Enhanced Security Features</h2>
         <p>
           Our platform integrates advanced security measures to protect your game from unauthorized access and piracy. <br />
           With our state-of-the-art encryption and authentication protocols, you can be confident that your game is secure.
         </p>
-        <i class="fa-solid fa-hat-wizard"></i>
+        <img src={hatWizardLogo}></img>
         <h2>Cross-chain Interoperability</h2>
         <p>
           Improve accessibility and achieve seamless interoperability across multiple networks with our advanced anti-piracy technology.<br />
           Our platform ensures effortless adoption and operation, facilitating smooth integration across diverse network environments.
         </p>
-        <i class="fa-solid fa-dragon"></i>
+        <img src={dragonLogo}></img>
         <h2>AI-Powered Game Rating</h2>
         <p>
           Discover the game rating process enhanced by artificial intelligence. <br />

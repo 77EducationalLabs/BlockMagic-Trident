@@ -45,8 +45,8 @@ ul {
   background-color: #07475a;
 }
 
-.navAbout li i {
-  font-size: 1.4em;
+.navAbout li img {
+  width: 1.4em;
 }
 
 @media screen and (max-width: 1300px) {
@@ -71,8 +71,8 @@ ul {
   }
 
   .navAbout li {
-    border            : 0px solid #ffffff;
-    padding           : 2em;
+    border: 0px solid #ffffff;
+
     background-color  : #0d6a87;
     -webkit-box-shadow: 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
     -moz-box-shadow   : 10px 10px 41px -11px rgba(0, 0, 0, 0.75);
@@ -86,6 +86,5 @@ ul {
   li:hover {
     background-color: #07475a;
   }
-
 
 }
